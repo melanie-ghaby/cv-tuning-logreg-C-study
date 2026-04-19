@@ -1,0 +1,31 @@
+property,level,property_value,mean_default,mean_tuned,mean_gain,std_gain,gain_pct,std_pct,modal_best_C
+feature_sample_ratio,01_ratio=0.02,20/1000 = 0.020,0.6758,0.675,-0.0007,0.0066,-0.07%,+/-0.66%,10
+feature_sample_ratio,02_ratio=0.03,20/667  = 0.030,0.7261,0.7269,0.0007,0.0172,0.07%,+/-1.72%,0.1
+feature_sample_ratio,03_ratio=0.04,20/500  = 0.040,0.739,0.733,-0.006,0.0162,-0.60%,+/-1.62%,0.1
+feature_sample_ratio,04_ratio=0.06,20/333  = 0.060,0.7201,0.7119,-0.0082,0.016,-0.82%,+/-1.60%,0.1
+feature_sample_ratio,05_ratio=0.08,20/250  = 0.080,0.758,0.746,-0.012,0.0325,-1.20%,+/-3.25%,0.01
+feature_sample_ratio,06_ratio=0.10,20/200  = 0.100,0.7175,0.715,-0.0025,0.0378,-0.25%,+/-3.78%,0.1
+feature_sample_ratio,07_ratio=0.13,20/150  = 0.133,0.7067,0.695,-0.0117,0.0264,-1.17%,+/-2.64%,1
+feature_sample_ratio,08_ratio=0.17,20/120  = 0.167,0.6083,0.6188,0.0104,0.0473,1.04%,+/-4.73%,0.1
+feature_sample_ratio,09_ratio=0.20,20/100  = 0.200,0.735,0.7175,-0.0175,0.0507,-1.75%,+/-5.07%,0.1
+feature_sample_ratio,10_ratio=0.25,20/80   = 0.250,0.5438,0.5312,-0.0125,0.0919,-1.25%,+/-9.19%,1
+class_imbalance_ratio,01_split=55/45,split 55-45,0.732,0.7265,-0.0055,0.0112,-0.55%,+/-1.12%,0.1
+class_imbalance_ratio,02_split=60/40,split 60-40,0.7625,0.7625,0,0.0055,0.00%,+/-0.55%,1
+class_imbalance_ratio,03_split=65/35,split 65-35,0.781,0.7825,0.0015,0.0073,0.15%,+/-0.73%,0.1
+class_imbalance_ratio,04_split=70/30,split 70-30,0.795,0.798,0.003,0.0078,0.30%,+/-0.78%,0.1
+class_imbalance_ratio,05_split=75/25,split 75-25,0.826,0.8285,0.0025,0.0126,0.25%,+/-1.26%,0.1
+class_imbalance_ratio,06_split=80/20,split 80-20,0.8655,0.864,-0.0015,0.0065,-0.15%,+/-0.65%,1
+class_imbalance_ratio,07_split=85/15,split 85-15,0.8895,0.8905,0.001,0.0044,0.10%,+/-0.44%,10
+class_imbalance_ratio,08_split=90/10,split 90-10,0.93,0.93,0,0.0055,0.00%,+/-0.55%,1
+class_imbalance_ratio,09_split=95/5,split 95-5,0.9585,0.9585,0,0.0045,0.00%,+/-0.45%,1
+class_imbalance_ratio,10_split=99/1,split 99-1,0.9845,0.9845,0,0,0.00%,+/-0.00%,0.001
+mean_feature_correlation,01_9inf_0red,9 inf / 0 red,0.767,0.7685,0.0015,0.0091,0.15%,+/-0.91%,1
+mean_feature_correlation,02_8inf_1red,8 inf / 1 red,0.7385,0.736,-0.0025,0.0094,-0.25%,+/-0.94%,1
+mean_feature_correlation,03_7inf_2red,7 inf / 2 red,0.82,0.8185,-0.0015,0.0171,-0.15%,+/-1.71%,0.1
+mean_feature_correlation,04_6inf_3red,6 inf / 3 red,0.8055,0.8035,-0.002,0.0103,-0.20%,+/-1.03%,1
+mean_feature_correlation,05_5inf_4red,5 inf / 4 red,0.851,0.852,0.001,0.007,0.10%,+/-0.70%,1
+mean_feature_correlation,06_4inf_5red,4 inf / 5 red,0.6885,0.6845,-0.004,0.0318,-0.40%,+/-3.18%,0.001
+mean_feature_correlation,07_3inf_6red,3 inf / 6 red,0.884,0.878,-0.006,0.0111,-0.60%,+/-1.11%,1
+mean_feature_correlation,08_2inf_7red,2 inf / 7 red,0.8925,0.889,-0.0035,0.0085,-0.35%,+/-0.85%,0.01
+mean_feature_correlation,09_2inf_6red_s,2 inf / 6 red (n=9),0.891,0.883,-0.008,0.0117,-0.80%,+/-1.17%,0.1
+mean_feature_correlation,10_2inf_5red_s,2 inf / 5 red (n=8),0.8775,0.878,0.0005,0.005,0.05%,+/-0.50%,1

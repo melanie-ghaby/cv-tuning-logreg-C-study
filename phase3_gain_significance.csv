@@ -1,0 +1,11 @@
+dataset,type,mean_gain,ci_low,ci_high,p_value_gain,significant_gain
+breast_cancer,baseline,-0.0018,-0.006199335,0.002599335,0.402466841,FALSE
+wine,baseline,0.0097,0.001182138,0.018217862,0.027739755,TRUE
+iris,baseline,0.005,-0.003939075,0.013939075,0.256187342,FALSE
+digits,baseline,-0.0015,-0.00313805,0.00013805,0.07045075,FALSE
+colon_cancer,targeted,0.0077,-0.007978483,0.023378483,0.316894883,FALSE
+diabetes_pima,targeted,-0.0006,-0.00223805,0.00103805,0.452709679,FALSE
+credit_fraud,targeted,0,-4.68E-05,4.68E-05,1,FALSE
+banknote_auth,targeted,0.0073,0.004772722,0.009827278,8.15E-06,TRUE
+abalone,targeted,0.0012,-0.000297646,0.002697646,0.109908128,FALSE
+madelon,targeted,0.0308,0.022562946,0.039037054,2.32E-07,TRUE

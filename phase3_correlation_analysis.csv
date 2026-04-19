@@ -1,0 +1,6 @@
+property,pearson_r,ci_low,ci_high,pearson_p,spearman_rho,spearman_p,strength
+Feature/Sample Ratio,0.074,-0.583,0.672,0.839,0.43,0.214,very weak
+Class Imbalance Ratio,0.355,-0.354,0.805,0.314,0.347,0.327,weak
+Mean Feature Correlation,-0.301,-0.782,0.406,0.399,-0.067,0.855,weak
+N Samples,-0.194,-0.734,0.496,0.592,-0.188,0.603,very weak
+N Features,0.281,-0.424,0.774,0.432,0.085,0.815,very weak
